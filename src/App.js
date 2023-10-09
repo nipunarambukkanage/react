@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import { Avatar, Typography, Paper, IconButton, CssBaseline, AppBar, Toolbar } from '@mui/material';
+import { AddAPhoto, Satellite, YouTube, TaxiAlert, Headphones, Gamepad, 
+  Recycling } from '@mui/icons-material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='App'>
+    <CssBaseline />
+    <AppBar position="fixed">
+      <Toolbar>
+        <Typography variant="h6" noWrap>
+
+            Nipuna Rambukkanage
+
+        </Typography>
+      </Toolbar>
+    </AppBar>
+
+   
+   </div>
   );
 }
-
 export default App;
